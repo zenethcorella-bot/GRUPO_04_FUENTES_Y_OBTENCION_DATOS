@@ -1,0 +1,16 @@
+symbol,longName,typeDisp,sector_id,country,financialCurrency
+AAPL,Apple Inc.,Equity,1,United States,USD
+MSFT,Microsoft Corporation,Equity,1,United States,USD
+GOOGL,Alphabet Inc.,Equity,9,United States,USD
+AMZN,"Amazon.com, Inc.",Equity,7,United States,USD
+TSLA,"Tesla, Inc.",Equity,7,United States,USD
+NVDA,NVIDIA Corporation,Equity,1,United States,USD
+META,"Meta Platforms, Inc.",Equity,9,United States,USD
+UNH,UnitedHealth Group Incorporated,Equity,2,United States,USD
+JPM,JPMorgan Chase & Co.,Equity,3,United States,USD
+V,Visa Inc.,Equity,3,United States,USD
+XOM,Exxon Mobil Corporation,Equity,4,United States,USD
+LLY,Eli Lilly and Company,Equity,2,United States,USD
+PG,The Procter & Gamble Company,Equity,8,United States,USD
+MA,Mastercard Incorporated,Equity,3,United States,USD
+AVGO,Broadcom Inc.,Equity,1,United States,USD
