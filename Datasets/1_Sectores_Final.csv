@@ -1,0 +1,12 @@
+sector_id,Sector,Descripcion,Industria,Region,benchmark_index,riesgo_relativo
+1,Tecnologia de la Informacion,"Empresas de software, hardware y servicios digitales",Software y Servicios de TI,Global,S&P 500 Information Technology,Medio
+2,Salud,"Companias farmaceuticas, biotecnologia y servicios medicos",Farmaceuticas y Biotecnologia,Global,S&P 500 Health Care,Medio
+3,Financieros,"Bancos, aseguradoras y servicios financieros",Banca y Seguros,Global,S&P 500 Financials,Medio-Alto
+4,Energia,"Empresas de petroleo, gas y energias alternativas",Petroleo y Gas,Global,S&P 500 Energy,Alto
+5,Materiales,"Productores de quimicos, metales y materiales basicos",Quimicos y Metales,Global,S&P 500 Materials,Medio-Alto
+6,Industriales,"Fabricacion, transporte y servicios industriales",Aeroespacial y Transporte,Global,S&P 500 Industrials,Medio
+7,Consumo Discrecional,"Bienes y servicios no esenciales como autos, retail y lujo",Retail y Automotriz,Global,S&P 500 Consumer Discretionary,Medio
+8,Consumo Basico,"Alimentos, bebidas y productos esenciales",Alimentos y Bebidas,Global,S&P 500 Consumer Staples,Bajo
+9,Servicios de Comunicacion,"Telecomunicaciones, medios y entretenimiento digital",Telecomunicaciones y Medios,Global,S&P 500 Communication Services,Medio
+10,Servicios Publicos,"Electricidad, agua y gas",Utilities,Global,S&P 500 Utilities,Bajo
+11,Bienes Raices,REITs y desarrolladoras inmobiliarias,Real Estate Investment Trusts,Global,S&P 500 Real Estate,Medio
