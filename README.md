@@ -1,4 +1,4 @@
-Sistema de Gestión de Base de Datos – Portafolio de Inversiones (MVP)
+## Sistema de Gestión de Base de Datos – Portafolio de Inversiones (MVP)
 
 # Descripción
 Este proyecto implementa un modelo relacional para la gestión de portafolios de inversión utilizando MySQL ejecutado mediante Docker.
@@ -49,4 +49,5 @@ El sistema se considera reproducible si:
 •	Los datos se cargan correctamente.
 
 •	Las consultas devuelven resultados coherentes.
+
 
