@@ -1,22 +1,43 @@
-# GRUPO_04_Optimización de Portafolios de Inversión utilizando Arquitecturas de Business Intelligence y Teoría Moderna de Carteras (MPT)
+Sistema de Gestión de Base de Datos – Portafolio de Inversiones (MVP)
+Descripción
+Este proyecto implementa un modelo relacional para la gestión de portafolios de inversión utilizando MySQL ejecutado mediante Docker.
+El sistema es completamente reproducible en local sin dependencias externas.
+________________________________________
+Requisitos
+•	Docker
+•	Docker Compose
+________________________________________
+Estructura del proyecto
+•	docker-compose.yml
+•	01_schema.sql
+•	02_data_load.sql
+•	03_queries.sql
+•	README.md
+________________________________________
+Ejecución
+Desde la carpeta del proyecto ejecutar:
+docker-compose down -v
+docker-compose up -d
 
-
-
-
-## Descripción del proyecto
-El principal objetivo de este proyecto de investigación es desarrollar una solución de análisis integral  financiero diseñada en la extracción, procesamiento y visualización de los  datos de múltiples activos (acciones, bonos y materias primas). Utilizando los principios de la Teoría Moderna de Carteras (MPT), la solución permitirá calcular la frontera eficiente para maximizar el retorno esperado dado un nivel de riesgo. El enfoque principal consiste en la implementación de una arquitectura de Business Intelligence que soporte la visualización analítica de riesgo-retorno y el rebalanceo automático de carteras en la volatilidad de los mercados.
-
-## Fuente de datos
-Obtención y Preparación de Datos Financieros a partir de la API Yahoo Finance.
-
-
-## Estrcutura de Repositorio
-
-- Main: Esta seccion expone los terminos generales del proyecto de TFM
-- Branch "Asignatura 5. Fuentes y Obtención de Datos"
-- Branch "Asignatura 6. Sistemas de Gestión de Bases de Datos: Relacionales y No Relacionales"
-
-## Terminos de uso
-Por cada asignatura se designara un Branch en el cual se encontraran los archivos relacionados para la ejecucción de sus actividades designadas. 
-
-En cada Branch se encontrará un archivo README para para la ejecucion del mismo. 
+El contenedor creado es:
+inversiones_mysql
+La base de datos creada es:
+DB_opt_portafolios
+Puerto expuesto:
+3307
+________________________________________
+Conexión desde terminal
+docker exec -it inversiones_mysql mysql -uroot -p200199Ra.
+Luego:
+	USE DB_opt_portafolios;
+	SHOW TABLES;
+________________________________________
+Ejecución de consultas representativas
+docker exec -i inversiones_mysql mysql -uroot -p200199Ra. DB_opt_portafolios < 03_queries.sql
+________________________________________
+Validación
+El sistema se considera reproducible si:
+•	El contenedor se levanta sin errores.
+•	Las tablas se crean automáticamente.
+•	Los datos se cargan correctamente.
+•	Las consultas devuelven resultados coherentes.
